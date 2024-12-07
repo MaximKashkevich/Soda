@@ -1,0 +1,18 @@
+/* Container.css */
+.container {
+  max-width: 1200px; /* Максимальная ширина контейнера */
+  margin: 0 auto; /* Центрирование контейнера */
+  padding: 0 20px; /* Отступы по бокам */
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0 15px; /* Уменьшаем отступы на мобильных устройствах */
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 0 10px; /* Еще меньше отступы на очень маленьких экранах */
+  }
+}
